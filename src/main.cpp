@@ -11,8 +11,8 @@
 // #include <fcntl.h>
 
 int main() {
-  int port_address = 8065;
-  std::string ip_address = "127.0.0.1";
+  int port_address = 5002;
+  std::string ip_address = "192.168.43.101";
   // Create a socket
   int requesting = socket(AF_INET, SOCK_STREAM, 0);
   std::cout << "requesting " << requesting << std::endl;
